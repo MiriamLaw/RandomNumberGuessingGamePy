@@ -27,7 +27,7 @@ def main():
                 print("Please pick a lower number.")
             guesses += 1
 
-    print(f"You lose. The number to guess was: {random_number}")
+    print("You lose. The number to guess was: {random_number}")
 
 if __name__ == "__main__":
     main()
